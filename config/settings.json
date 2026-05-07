@@ -1,0 +1,247 @@
+{
+    "remote.SSH.remotePlatform": {
+        "dev0020.dev.un.sbt": "linux",
+        "dev0020.slo": "linux"
+    },
+    "terminal.integrated.defaultProfile.linux": "bash",
+    "terminal.integrated.shellIntegration.history": 350,
+    "terminal.integrated.persistentSessionScrollback": 5000,
+    "terminal.integrated.confirmOnExit": "always",
+    "editor.largeFileOptimizations": false,
+    "workbench.colorTheme": "2077",
+    "terminal.integrated.profiles.linux": {
+        "bash": {
+            "path": "bash",
+            "icon": "terminal-bash"
+        },
+        "zsh": {
+            "path": "zsh"
+        },
+        "fish": {
+            "path": "fish"
+        },
+        "tmux": {
+            "path": "tmux",
+            "icon": "terminal-tmux"
+        },
+        "pwsh": {
+            "path": "pwsh",
+            "icon": "terminal-powershell"
+        }
+    },
+    "workbench.editorAssociations": {
+        "*.copilotmd": "vscode.markdown.preview.editor",
+        "*.txt": "default",
+        "*.docx": "default",
+        "*.pickle": "default"
+    },
+    "window.zoomLevel": -1,
+    "backgroundCover.imagePath": "e:\\Обои\\02.jpeg.webp",
+    "vim.commandLineModeKeyBindings": [],
+    "google-translate.firstLanguage": "ru",
+    "php.validate.executablePath": "C:\\Program Files\\php-8.2.3\\php-8.2.3-Win32-vs16-x64\\php.exe",
+    "maven.executable.path": "C:\\Program Files\\Maven\\bin",
+    "C_Cpp.default.compilerPath": "C:/msys64/mingw64/bin/g++.exe",
+    "C_Cpp.default.intelliSenseMode": "windows-gcc-x64",
+    "tabnine.experimentalAutoImports": true,
+    "gigacode.inlineCompletionColor": "pink",
+    "workbench.colorCustomizations": {
+        "editorGhostText.foreground": "#FF47E9"
+    },
+    "google-translate.secondLanguage": "en",
+    "files.associations": {
+        "*.spec": "rpm-spec",
+        "*.bazel": "python"
+    },
+    "editor.fontSize": 14,
+    "terminal.integrated.fontSize": 14,
+    "kilo-code.allowedCommands": [
+        "git log",
+        "git diff",
+        "git show",
+        "npm test",
+        "npm install",
+        "tsc",
+        "pdm*",
+        "git status",
+        "pdm run lint",
+        "pdm run",
+        "pdm",
+        "pip",
+        "grep",
+        "head -10",
+        "head",
+        "wsl",
+        "wsl bash",
+        "git",
+        "docker-compose",
+        "docker"
+    ],
+    "diffEditor.ignoreTrimWhitespace": false,
+    "git.ignoreRebaseWarning": true,
+    "git.confirmSync": false,
+    "remote.autoForwardPortsSource": "hybrid",
+    "remote.SSH.connectTimeout": 60,
+    "remote.SSH.serverAliveInterval": 30,
+    "remote.SSH.serverAliveCountMax": 10,
+    "remote.SSH.lockfilesInTmp": true,
+    "remote.SSH.enableDynamicForwarding": true,
+    "remote.SSH.useLocalServer": true,
+    "editor.dropIntoEditor.preferences": [],
+    "commentTranslate.source": "Google",
+    "commentTranslate.targetLanguage": "ru",
+    "commentTranslate.hover.enabled": true,
+    "commentTranslate.hover.keepOriginal": true,
+    "commentTranslate.hover.maxLength": 4000,
+    "autoTranslate.enabled": true,
+    "autoTranslate.targetLanguage": "ru",
+    "autoTranslate.sourceLanguage": "auto",
+    "translator.targetLanguage": "ru",
+    "translator.sourceLanguage": "auto",
+    "translator.engine": "google",
+    "googleTranslate.targetLanguage": "ru",
+    "googleTranslate.sourceLanguage": "auto",
+    "editor.hover.enabled": "on",
+    "editor.hover.delay": 300,
+    "mdb.mcp.server": "prompt",
+    "workbench.editor.empty.hint": "hidden",
+    "kilo-code.deniedCommands": [
+        "git push"
+    ],
+    "jupyter.completionTriggerCharacters": {
+        "bash": [
+            "$",
+            "{"
+        ],
+        "java": [
+            ".",
+            "@",
+            "#"
+        ],
+        "javascript": [
+            ".",
+            "\"",
+            "'",
+            "/",
+            "@"
+        ],
+        "python": [
+            ".",
+            "%",
+            "'",
+            "\""
+        ],
+        "julia": [
+            "."
+        ],
+        "r": [
+            "[",
+            "(",
+            ",",
+            "$",
+            "@",
+            "\"",
+            "'"
+        ],
+        "rust": [
+            ".",
+            ":"
+        ],
+        "scala": [
+            "."
+        ],
+        "typescript": [
+            ".",
+            "\"",
+            "'",
+            "/",
+            "@",
+            "<"
+        ]
+    },
+    "kilo-code.debug": false,
+    "settingsSync.ignoredExtensions": [],
+    "terminal.integrated.commandsToSkipShell": [
+        "kilo-code.new.agentManagerOpen",
+        "kilo-code.new.agentManager.showTerminal"
+    ],
+    "kilo-code.new.autocomplete.enableAutoTrigger": false,
+    "kilo-code.new.autocomplete.enableSmartInlineTaskKeybinding": true,
+    "kilo-code.new.autocomplete.enableChatAutocomplete": true,
+    "vim.useCtrlKeys": false,
+    "vim.overrideCopy": false,
+    "vim.useSystemClipboard": true,
+    "vim.easymotion": true,
+    "vim.incsearch": true,
+    "vim.hlsearch": true,
+    "vim.ignorecase": true,
+    "vim.smartcase": true,
+    "vim.inccommand": "replace",
+    "editor.cursorSmoothCaretAnimation": "off",
+    "extensions.experimental.affinity": {
+        "vscodevim.vim": 1
+    },
+    "vim.cursorStylePerMode.normal": "block",
+    "vim.cursorStylePerMode.insert": "block-outline",
+    "vim.cursorStylePerMode.visual": "underline",
+    "vim.handleKeys": {
+        "<C-r>": true,
+        "<C-o>": true
+    },
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "=",
+                "="
+            ],
+            "commands": [
+                "editor.action.formatDocument"
+            ],
+            "silent": true
+        }
+    ],
+    "[go]": {
+        "editor.defaultFormatter": "golang.go",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "always"
+        },
+        "editor.inlineSuggest.enabled": true,
+        "editor.quickSuggestions": {
+            "other": "on",
+            "comments": "off",
+            "strings": "on"
+        },
+        "editor.suggestSelection": "first"
+    },
+    "go.formatTool": "goimports",
+    "go.useLanguageServer": true,
+    "go.inlayHints.assignVariableTypes": true,
+    "go.inlayHints.compositeLiteralFields": true,
+    "go.inlayHints.compositeLiteralTypes": true,
+    "go.inlayHints.constantValues": true,
+    "go.inlayHints.functionTypeParameters": true,
+    "go.inlayHints.parameterNames": true,
+    "go.inlayHints.rangeVariableTypes": true,
+    "go.suggestSnippets": true,
+    "go.toolsManagement.autoUpdate": true,
+    "gopls": {
+        "ui.completion.usePlaceholders": true,
+        "usePlaceholders": true,
+        "staticcheck": true,
+        "semanticTokens": true,
+        "hoverKind": "FullDocumentation",
+        "matcher": "Fuzzy",
+        "completeUnimported": true,
+        "analyses": {
+            "unusedparams": true,
+            "unusedwrite": true
+        }
+    },
+    "window.newWindowProfile": "По умолчанию",
+    "kilo-code.new.language": "ru",
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 500,
+    "chatgpt.followUpQueueMode": "steer"
+}
+
