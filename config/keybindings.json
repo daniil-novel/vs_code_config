@@ -1,0 +1,21 @@
+// Поместите настраиваемые сочетания клавиш в этот файл, чтобы переопределить сочетания клавиш по умолчанию.
+[
+    {
+        "key": "ctrl+alt+l",
+        "command": "editor.action.formatDocument.multiple"
+    },
+    {
+        "key": "NumLock",
+        "command": "toggleVim"
+    },
+    {
+        "key": "escape",
+        "command": "extension.vim_escape",
+        "when": "vim.active && editorTextFocus && vim.mode != 'Normal'"
+    },
+    {
+        "key": "tab",
+        "command": "-extension.vim_tab",
+        "when": "vim.active"
+    }
+]
