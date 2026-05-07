@@ -1,0 +1,62 @@
+{
+    "Go Main": {
+        "prefix": "main",
+        "body": [
+            "package main",
+            "",
+            "import \"fmt\"",
+            "",
+            "func main() {",
+            "\tfmt.Println(\"$1\")",
+            "}"
+        ],
+        "description": "Go main file with fmt.Println"
+    },
+    "Go Main Short": {
+        "prefix": "mainf",
+        "body": [
+            "package main",
+            "",
+            "import \"fmt\"",
+            "",
+            "func main() {",
+            "\tfmt.Println(\"$1\")",
+            "}"
+        ],
+        "description": "Go main file with fmt.Println"
+    },
+    "Go Function": {
+        "prefix": "fn",
+        "body": [
+            "func ${1:name}(${2:args}) ${3:returnType} {",
+            "\t$0",
+            "}"
+        ],
+        "description": "Go function template"
+    },
+    "Go If Err": {
+        "prefix": "ife",
+        "body": [
+            "if err != nil {",
+            "\treturn ${1:err}",
+            "}"
+        ],
+        "description": "Go error handling block"
+    },
+    "Go Println": {
+        "prefix": "pl",
+        "body": [
+            "fmt.Println(${1:value})"
+        ],
+        "description": "fmt.Println shortcut"
+    },
+    "Go Test": {
+        "prefix": "test",
+        "body": [
+            "func Test${1:Name}(t *testing.T) {",
+            "\t$0",
+            "}"
+        ],
+        "description": "Go test function template"
+    }
+}
