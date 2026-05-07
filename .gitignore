@@ -1,0 +1,6 @@
+.vscode/
+*.log
+*.tmp
+*.bak
+*.backup
+node_modules/
