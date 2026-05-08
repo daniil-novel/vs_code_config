@@ -52,6 +52,22 @@ Set-ExecutionPolicy -Scope Process Bypass
 .\scripts\install.ps1 -ExtensionsOnly
 ```
 
+## Установка расширений на Linux / Ubuntu
+
+Скрипт ставит расширения по одному. Если какое-то расширение не скачивается из-за сети, сертификата или корпоративного прокси, он записывает его в `extensions/failed-linux.txt` и продолжает дальше.
+
+```bash
+bash scripts/install-extensions-linux.sh
+```
+
+Если команда `code` не находится, открой VS Code и выполни команду `Shell Command: Install 'code' command in PATH`, затем перезапусти терминал.
+
+Можно передать свой путь к списку расширений:
+
+```bash
+bash scripts/install-extensions-linux.sh extensions/extensions.txt
+```
+
 ## Только настройки
 
 ```powershell
