@@ -11,6 +11,21 @@
 - `snippets/` - пользовательские snippets.
 - `extensions/extensions.txt` - список расширений для установки через VS Code CLI.
 - `scripts/install.ps1` - скрипт установки профиля на Windows.
+- `profiles/daniil-vscode.code-profile` - готовый экспорт профиля для импорта через UI VS Code.
+
+## Импорт через VS Code
+
+Это самый удобный вариант для другого компьютера.
+
+1. Скачай файл `profiles/daniil-vscode.code-profile` из репозитория.
+2. Открой VS Code.
+3. Нажми `Ctrl+Shift+P`.
+4. Запусти команду `Profiles: Import Profile...`.
+5. Выбери скачанный файл `daniil-vscode.code-profile`.
+6. В окне импорта оставь включенными `Settings`, `Keyboard Shortcuts`, `Snippets` и `Extensions`.
+7. Нажми `Create` / `Import`.
+
+Если VS Code спросит, ставить ли расширения, подтверди установку. После импорта лучше перезапустить VS Code.
 
 ## Установка на Windows
 

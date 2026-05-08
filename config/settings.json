@@ -238,10 +238,8 @@
             "unusedwrite": true
         }
     },
-    "window.newWindowProfile": "По умолчанию",
     "kilo-code.new.language": "ru",
     "files.autoSave": "afterDelay",
     "files.autoSaveDelay": 500,
     "chatgpt.followUpQueueMode": "steer"
 }
-
